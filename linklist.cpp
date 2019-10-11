@@ -56,9 +56,9 @@ void createlinklist1(node **head){
     node*tail=*head;
     cin>>data;
     while(data!=-1){
-        node*temp=new node(data);
-        tail->next=temp;
-        tail=temp;
+        node*temp1=new node(data);
+        tail->next=temp1;
+        tail=temp1;
         cin>>data;
     }
     return;
